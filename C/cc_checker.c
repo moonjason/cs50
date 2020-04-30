@@ -17,7 +17,7 @@ int main(void)
             first_num = card_num;
         }
 
-        if (card_num < 100)
+        if (card_num < 100 && card_num > 10)
         {
             second_num = card_num;
         }
@@ -46,11 +46,11 @@ int main(void)
         {
             printf("VISA\n");
         }
-        else if (length == 16 && first_num == 5 && (second_num > 0 && second_num < 6))
+        else if (length == 16 && (second_num > 50 && second_num < 56))
         {
             printf("MASTERCARD\n");
         }
-        else if(length == 15 && first_num == 3 && (second_num == 4 || second_num == 7))
+        else if(length == 15 && (second_num == 34 || second_num == 37))
         {
             printf("AMEX\n");
         }
