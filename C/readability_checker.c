@@ -46,7 +46,7 @@ int main(void)
     } else
     {
         int final_grade = roundf(grade);
-        printf("Grade: %i\n", final_grade);
+        printf("Grade %i\n", final_grade);
     }
 }
 
