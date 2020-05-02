@@ -45,8 +45,8 @@ int main(void)
         printf("Grade 16+\n");
     } else
     {
-        grade = roundf(grade);
-        printf("Grade: %f\n", grade);
+        int final_grade = roundf(grade);
+        printf("Grade: %i\n", final_grade);
     }
 }
 
